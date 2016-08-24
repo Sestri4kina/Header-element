@@ -1,0 +1,69 @@
+.container {
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(to top, black 0%, #ff6a3a 100%);
+}
+
+/* Style for "Ring" */
+.ring {
+  position: absolute;
+  left: 15.2vw;
+  top: 7.8555vw;
+  width: 6.6667vw;
+  height: 6.6667vw;
+  border-radius: 3.33335vw;
+  opacity: 0.3;
+  border: 1px white solid;
+}
+
+/* Style for "Dot" */
+.dot, .dot-first, .dot-second, .dot-third {
+  position: absolute;
+  top: 10.4948vw;
+  width: 1.3333vw;
+  height: 1.3333vw;
+  border-radius: 0.66665vw;
+  background-color: white;
+}
+
+.dot-first {
+  left: 17.8667vw;
+}
+
+.dot-second {
+  left: 49.3333vw;
+}
+
+.dot-third {
+  left: 80.8vw;
+}
+
+/* Style for "Line" */
+.line, .line-first, .line-second {
+  position: absolute;
+  top: 9.2954vw;
+  width: 19.4667vw;
+  height: 0.45px;
+  opacity: 0.3;
+  background-color: white;
+}
+
+.line-first {
+  left: 24.5333vw;
+}
+
+.line-second {
+  left: 56vw;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .line, .line-first, .line-second {
+    top: 5.2954vw;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .line, .line-first, .line-second {
+    top: 8.2954vw;
+  }
+}
